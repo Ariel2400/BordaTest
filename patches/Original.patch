@@ -1,0 +1,13 @@
+diff --git a/contracts/BordaFixed.sol b/contracts/BordaFixed.sol
+index ef88d11..b3095e4 100644
+--- a/contracts/BordaFixed.sol
++++ b/contracts/BordaFixed.sol
+@@ -21,7 +21,7 @@ contract Borda is IBorda {
+   
+     // a list of voters with some data on them.
+     mapping (address => Voters) _voters;
+-    // voters black list - true if a voter is blacklisted
++    // voters black list - true if a voter is blacklistedd
+     address[] _blackList;
+     // a list of contenders and some data on them.
+     mapping (address => Contenders) _contenders;
